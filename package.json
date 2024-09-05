@@ -23,7 +23,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tarmyz/payments-isomorphic-lib"
+    "url": "git+https://github.com/tarmyz/payments-isomorphic-lib.git"
   },
   "bugs": {
     "url": "https://github.com/tarmyz/payments-isomorphic-lib/issues"
