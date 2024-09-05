@@ -1,0 +1,34 @@
+{
+  "name": "@tarmyz/payments-isomorphic-lib",
+  "version": "1.0.0",
+  "description": "A set of core shared resources for the Payments API &amp; Payments Client SDKs, including common types, utilities, constants and media resources.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "payments",
+    "isomorphic",
+    "library",
+    "typescript",
+    "crypto"
+  ],
+  "author": "Tarmyz <team@tarmyz.ae>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarmyz/payments-isomorphic-lib"
+  },
+  "bugs": {
+    "url": "https://github.com/tarmyz/payments-isomorphic-lib/issues"
+  },
+  "homepage": "https://github.com/tarmyz/payments-isomorphic-lib#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
