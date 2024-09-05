@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "release": {
+    "autoVersion": true,
+    "plugins": [
+      "@auto-it/conventional-changelog",
+      "@auto-it/github-release",
+      "@auto-it/npm"
+    ]
+  },
+  "npm": {
+    "publish": true,
+    "tag": "latest",
+    "auth": "your-npm-auth-token"
+  },
+  "git": {
+    "tag": true,
+    "commit": true
+  },
+  "github": {
+    "owner": "tarmyz",
+    "repo": "payments-isomorphic-lib",
+    "token": "your-github-token"
+  }
+}

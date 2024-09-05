@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "release": "auto shipit"
   },
   "keywords": [
     "payments",
@@ -29,6 +30,17 @@
   },
   "homepage": "https://github.com/tarmyz/payments-isomorphic-lib#readme",
   "devDependencies": {
+    "@auto-it/all-contributors": "^11.2.1",
+    "@auto-it/conventional-commits": "^11.2.1",
+    "auto": "^11.2.1",
     "typescript": "^5.5.4"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "released"
+    ]
   }
 }
