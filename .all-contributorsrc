@@ -3,6 +3,22 @@
   "projectOwner": "tarmyz",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": ["README.md"],
-  "contributors": []
+  "files": [
+    "README.md"
+  ],
+  "contributors": [
+    {
+      "login": "ElRakabawi",
+      "name": "Muhammed ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5153654?v=4",
+      "profile": "http://elrakabawi.eth.limo/",
+      "contributions": [
+        "doc",
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "commitConvention": "none"
 }
