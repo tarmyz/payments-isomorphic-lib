@@ -10,6 +10,8 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
+    "test": "node ./dist/index.test.js",
+    "build:test": "npm run build && npm run test",
     "release": "auto shipit"
   },
   "keywords": [
@@ -42,5 +44,8 @@
       "conventional-commits",
       "released"
     ]
+  },
+  "dependencies": {
+    "viem": "^2.21.3"
   }
 }

@@ -1,19 +1,26 @@
-export interface Payment {
-  id: string;
-  amount: number;
-  currency: string;
-}
+import { Token, SupportedToken } from "./token.type";
 
-export interface Token {
+export class Chain {
+  chainId: number;
   name: string;
-  logo: string;
-  address: string;
-  dec: number;
-}
+  logoUrl: string;
+  tokens: SupportedToken[];
+  // Optional fields
+  explorerUrl?: string;
+  rpcUrls?: string[];
+  explorerApiKey?: string;
+  explorerApiUrl?: string;
 
-export interface Chain {
-  name: string;
-  logo: string;
-  id: string;
-  tokens: Token[];
+  constructor({ name, logoUrl, chainId, tokens }: { name: string; logoUrl: string; chainId: number; tokens: Token[] }) {
+    this.name = name;
+    this.logoUrl = logoUrl;
+    this.chainId = chainId;
+    this.tokens = tokens.map((token: Token) => ({
+      name: token.name,
+      symbol: token.symbol,
+      logo: token.logoUrl,
+      decimals: token.decimals,
+      address: token.getAddress(chainId),
+    }));
+  }
 }

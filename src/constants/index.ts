@@ -5,4 +5,6 @@ export const PAYMENTS_API = {
   PAY: "/pay",
   GET_PAYMENT_INFO: "/get-payment-info",
 };
+export const IMAGES_BASE_URL =
+  "https://raw.githubusercontent.com/tarmyz/payments-isomorphic-lib/main/src/assets/images";
 export const TIMEOUT = 5000;

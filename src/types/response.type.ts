@@ -12,3 +12,9 @@ export interface MissingArgsErrorResponse {
 export type SUCCESS = "success";
 
 export type Status = SUCCESS | ERRORS;
+
+export interface PaymentResponse {
+  id: string;
+  amount: number;
+  currency: string;
+}
