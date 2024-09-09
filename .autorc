@@ -1,5 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "independent",
+    "labels": {
+    "major": ":boom: Breaking Change",
+    "minor": ":sparkles: Feature",
+    "patch": ":bug: Bug Fix"
+  },
   "release": {
     "autoVersion": true,
     "plugins": [
