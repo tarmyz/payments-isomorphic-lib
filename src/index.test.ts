@@ -1,3 +1,9 @@
-import { processPayment } from "./lib";
+import { supportedChains } from "./constants/supported/chains";
+import { USDT } from "./constants/supported/tokens";
 
-console.log(processPayment({ id: "unique-id", amount: 100, currency: "USD" }));
+// check that every chain has at least one token
+supportedChains.forEach((chain) => {
+  if (chain.tokens.length === 0) {
+    throw new Error(`Chain ${chain.name} has no tokens`);
+  }
+});
