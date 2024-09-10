@@ -1,3 +1,15 @@
+# v1.6.0 (Tue Sep 10 2024)
+
+#### 🚀 Enhancement
+
+- feat(constants): export chains and tokens ([@ElRakabawi](https://github.com/ElRakabawi))
+
+#### Authors: 1
+
+- Muhammed  ([@ElRakabawi](https://github.com/ElRakabawi))
+
+---
+
 # v1.5.0 (Tue Sep 10 2024)
 
 #### 🚀 Enhancement
