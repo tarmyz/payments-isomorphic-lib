@@ -10,3 +10,9 @@ export const PAYMENTS_API: PaymentsAPI = {
 export const IMAGES_BASE_URL =
   "https://raw.githubusercontent.com/tarmyz/payments-isomorphic-lib/main/src/assets/images";
 export const TIMEOUT = 5000;
+
+// export chains
+export * from "./supported/chains";
+
+// export tokens
+export * from "./supported/tokens";
