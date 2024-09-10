@@ -34,8 +34,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Commit unstaged changes (if necessary)
+        run: |
+          git add package-lock.json CHANGELOG.md # Add only the necessary files
+          git commit -m "chore: commit changes before release" || echo "No changes to commit"
+
+      - name: Push any changes
+        run: git push origin main || echo "No changes to push"
+
       - name: Run auto shipit
+        run: npx auto shipit
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx auto shipit
