@@ -9,10 +9,3 @@ export type PaymentsAPI = {
   PAY: PAY;
   GET_PAYMENT_INFO: GET_PAYMENT_INFO;
 };
-
-export const PAYMENTS_API: PaymentsAPI = {
-  BASE_URL: "https://tarmyz.com/api/payments",
-  HEALTH: "/health",
-  PAY: "/pay",
-  GET_PAYMENT_INFO: "/get-payment-info",
-};

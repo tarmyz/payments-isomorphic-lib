@@ -1,5 +1,7 @@
+import { PaymentsAPI } from "../types";
+
 export const API_BASE_URL = "https://tarmyz.com/api";
-export const PAYMENTS_API = {
+export const PAYMENTS_API: PaymentsAPI = {
   BASE_URL: "https://tarmyz.com/api/payments",
   HEALTH: "/health",
   PAY: "/pay",
