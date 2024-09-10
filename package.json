@@ -1,6 +1,6 @@
 {
   "name": "@tarmyz/payments-isomorphic-lib",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "A set of core shared resources for the Payments API &amp; Payments Client SDKs, including common types, utilities, constants and media resources.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
