@@ -41,7 +41,12 @@
     "plugins": [
       "npm",
       "all-contributors",
-      "conventional-commits",
+      [
+        "conventional-commits",
+        {
+          "defaultReleaseType": "patch"
+        }
+      ],
       "released"
     ]
   },

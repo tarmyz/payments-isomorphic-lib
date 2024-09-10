@@ -16,7 +16,6 @@
   "npm": {
     "publish": true,
     "tag": "latest",
-    "auth": "your-npm-auth-token"
   },
   "git": {
     "tag": true,
@@ -25,6 +24,5 @@
   "github": {
     "owner": "tarmyz",
     "repo": "payments-isomorphic-lib",
-    "token": "your-github-token"
   }
 }
