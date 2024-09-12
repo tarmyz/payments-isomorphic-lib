@@ -1,3 +1,15 @@
+# v2.0.0 (Thu Sep 12 2024)
+
+#### 💥 Breaking Change
+
+- chore(api)!: base url ([@ElRakabawi](https://github.com/ElRakabawi))
+
+#### Authors: 1
+
+- Muhammed  ([@ElRakabawi](https://github.com/ElRakabawi))
+
+---
+
 # v1.6.0 (Tue Sep 10 2024)
 
 #### 🚀 Enhancement
