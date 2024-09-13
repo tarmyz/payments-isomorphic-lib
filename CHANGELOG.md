@@ -1,3 +1,15 @@
+# v3.0.0 (Fri Sep 13 2024)
+
+#### 💥 Breaking Change
+
+- chore!: api version ([@ElRakabawi](https://github.com/ElRakabawi))
+
+#### Authors: 1
+
+- Muhammed  ([@ElRakabawi](https://github.com/ElRakabawi))
+
+---
+
 # v2.0.0 (Thu Sep 12 2024)
 
 #### 💥 Breaking Change
