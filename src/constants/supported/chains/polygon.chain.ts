@@ -8,4 +8,5 @@ export const polygon: Chain = new Chain({
   logoUrl: `${IMAGES_BASE_URL}/networks/polygon.svg`,
   chainId: ChainIds.POLYGON_CHAIN_ID,
   tokens: [USDT],
+  confirmationBlocks: 20,
 });

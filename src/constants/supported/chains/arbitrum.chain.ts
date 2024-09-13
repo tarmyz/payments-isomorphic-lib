@@ -8,4 +8,5 @@ export const arbitrum: Chain = new Chain({
   logoUrl: `${IMAGES_BASE_URL}/networks/arb.svg`,
   chainId: ChainIds.ARBITRUM_CHAIN_ID,
   tokens: [USDT],
+  confirmationBlocks: 25,
 });
