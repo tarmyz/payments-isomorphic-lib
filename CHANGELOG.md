@@ -1,3 +1,15 @@
+# v3.2.0 (Fri Sep 13 2024)
+
+#### 🚀 Enhancement
+
+- feat(types): add confirmations to Chain type ([@ElRakabawi](https://github.com/ElRakabawi))
+
+#### Authors: 1
+
+- Muhammed  ([@ElRakabawi](https://github.com/ElRakabawi))
+
+---
+
 # v3.1.0 (Fri Sep 13 2024)
 
 #### 🚀 Enhancement
