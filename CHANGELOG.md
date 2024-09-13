@@ -1,3 +1,15 @@
+# v3.1.0 (Fri Sep 13 2024)
+
+#### 🚀 Enhancement
+
+- feat: export API_BASE_PATH & API_VERSION ([@ElRakabawi](https://github.com/ElRakabawi))
+
+#### Authors: 1
+
+- Muhammed  ([@ElRakabawi](https://github.com/ElRakabawi))
+
+---
+
 # v3.0.0 (Fri Sep 13 2024)
 
 #### 💥 Breaking Change
